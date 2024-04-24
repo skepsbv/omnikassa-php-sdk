@@ -1,5 +1,5 @@
 {
-    "name": "rabobank/omnikassa-sdk",
+    "name": "skepsbv/omnikassa-sdk",
     "type": "library",
     "license": "MIT",
     "description": "Rabobank OmniKassa SDK for PHP",
@@ -22,7 +22,7 @@
     "require": {
         "php": ">= 7.3",
         "ext-json": "*",
-        "guzzlehttp/guzzle": "^6.3",
+        "guzzlehttp/guzzle": "^6.3 || ^7.0",
         "netresearch/jsonmapper": "^4.0"
     },
     "require-dev": {
